@@ -1,11 +1,11 @@
 # Predict Student Performance 
-Predicting students' academic performance and year-end exam scores using Linear Regression and K-NN models in Spark
+- Predicting students' academic performance and year-end exam scores using Linear Regression and K-NN models in Spark
 Using PySpark framework, code on Jupiter Notebook
-Predicting academic performance can help schools and teachers gain a deeper understanding of students' learning characteristics and trends, enabling timely interventions and support. The results of this study may contribute to enhancing the learning experience and providing new development opportunities for students.
+- Predicting academic performance can help schools and teachers gain a deeper understanding of students' learning characteristics and trends, enabling timely interventions and support. The results of this study may contribute to enhancing the learning experience and providing new development opportunities for students.
 
 ## Dataset
-Dataset contains demographic and academic performance data of Secondary Education (Highschool) students in Portugal, which corresponds to upper secondary education in Vietnam
-DataSource: https://www.kaggle.com/datasets/dillonmyrick/high-school-student-performance-and-demographics 
+- Dataset contains demographic and academic performance data of Secondary Education (Highschool) students in Portugal, which corresponds to upper secondary education in Vietnam
+- DataSource: https://www.kaggle.com/datasets/dillonmyrick/high-school-student-performance-and-demographics 
 
 ## Problem Description
 The KNN Regression and Linear Regression models are applied to predict students' final exam scores, while the KNN Classifier model is used to determine whether a student is academically strong based on demographic factors. This helps schools and families evaluate, support, guide, and assist students in a timely manner, ultimately helping to understand students better and improve their academic performance.
