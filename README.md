@@ -27,7 +27,7 @@ Using PySpark framework, code on Jupiter Notebook
 
 | First criterion  | Second criterion |
 | --------------- | --------------- |
-| (grade_1 + grade_2 + final_grade) / 3 >= 14 | final_grade >= 14 và final_grade >= grade_2 và grade_2 >= grade_1  |
+| grade_1 >= 14 & grade_2 >= 14 & final_grade >= 14 | final_grade >= 14 và final_grade >= grade_2 và grade_2 >= grade_1  |
 
 
 
