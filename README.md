@@ -21,9 +21,9 @@ Using PySpark framework, code on Jupiter Notebook
 - Input: Students' demographic and academic information
 - Output: Academic performance (good or not, is_good)
 - Classification criteria: 
-+ A reference group is used based on the student classification method in Portugal [1]
-+ All three term scores must be at least "fair" (14), or the scores must not decrease over the time, with the final score being at least "fair" 
-+ The second criterion acknowledges students who have maintained and improved their academic performance throughout the year to achieve a strong final result
+  - A reference group is used based on the student classification method in Portugal [1]
+  - All three term scores must be at least "fair" (14), or the scores must not decrease over the time, with the final score being at least "fair" 
+  - The second criterion acknowledges students who have maintained and improved their academic performance throughout the year to achieve a strong final result
 
 | First criterion  | Second criterion |
 | --------------- | --------------- |
