@@ -8,18 +8,19 @@ Using PySpark framework, code on Jupiter Notebook
 - DataSource: https://www.kaggle.com/datasets/dillonmyrick/high-school-student-performance-and-demographics 
 
 ## Problem Description
-The KNN Regression and Linear Regression models are applied to predict students' final exam scores, while the KNN Classifier model is used to determine whether a student is academically strong based on demographic factors. This helps schools and families evaluate, support, guide, and assist students in a timely manner, ultimately helping to understand students better and improve their academic performance.
+- The KNN Regression and Linear Regression models are applied to predict students' final exam scores 
+- The KNN Classifier model is used to determine whether a student is academically strong based on demographic factors
 
 ❖ Predicting students' final exam scores:
 
-Input: Scores from the previous two terms (grade_1, grade_2), along with students' demographic and academic information
-Output: The third-term or final exam score (final_grade)
+- Input: Scores from the previous two terms (grade_1, grade_2), along with students' demographic and academic information
+- Output: The third-term or final exam score (final_grade)
 
 ❖ Predicting students' academic performance throughout the year:
 
-Input: Students' demographic and academic information
-Output: Academic performance (good or not, is_good)
-Classification criteria: 
+- Input: Students' demographic and academic information
+- Output: Academic performance (good or not, is_good)
+- Classification criteria: 
 ■ A reference group is used based on the student classification method in Portugal [1]
 ■ All three term scores must be at least "fair" (14), or the scores must not decrease over the time, with the final score being at least "fair" 
 ■ The second criterion acknowledges students who have maintained and improved their academic performance throughout the year to achieve a strong final result
